@@ -2,3 +2,37 @@
     font-family: sans-serif;
     font-weight: bold;
 }
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none ;
+
+}
+
+#ricerca {
+    width: 70%;
+}
+
+.background-gray {
+    background-color: rgba(201, 201, 201, 0.24);
+    padding-bottom: 600px;
+}
+
+.text-gray {
+    color: rgba(128, 128, 128, 0.568);
+}
+
+.casetta {
+    background-image: url(../img/city-illustration.3d5f84e.svg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
+
+.vantaggi {
+    background-image: url("https://riders.deliveroo.it/_nuxt/img/aubergine-pattern.b1fcbb0.png");
+}
