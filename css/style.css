@@ -3,14 +3,26 @@
     font-weight: bold;
 }
 
-li a {
+ a {
     text-decoration: none;
     color: black;
 }
 
 ul {
     list-style-type: none ;
+    
+}
 
+.bg-deliv {
+    background-color: #00ccbc;
+}
+
+.text-deliv {
+    color: #00ccbc;
+}
+
+.menu {
+    border: 1px solid rgba(128, 128, 128, 0.411);
 }
 
 #ricerca {
@@ -26,6 +38,10 @@ ul {
     color: rgba(128, 128, 128, 0.568);
 }
 
+.annunci {
+    border-top: 1px solid rgba(128, 128, 128, 0.534);
+}
+
 .casetta {
     background-image: url(../img/city-illustration.3d5f84e.svg);
     background-position: right;
@@ -36,3 +52,59 @@ ul {
 .vantaggi {
     background-image: url("https://riders.deliveroo.it/_nuxt/img/aubergine-pattern.b1fcbb0.png");
 }
+
+.footer-link a {
+    color: white;
+}
+
+
+/*      HOVER       */
+.navbar a:hover {
+    color: #00ccbc;
+}
+
+.menu a{
+    color: #00ccbc;
+}
+
+#scopri:hover {
+    text-decoration: underline;
+    color: #00ccbc;
+}
+
+.card {
+  position: relative;
+  top: 0;
+  transition: top ease 0.2s;
+}
+.card:hover {
+  top: -5px;
+}
+
+#title-feste:hover {
+    color: #00ccbc;
+    transition: 0.2s;
+}
+
+#faq:hover {
+    color: #00ccbc;
+}
+
+.annunci:hover {
+    border-top: 1px solid #00ccbb98;
+}
+
+.footer-link a:hover {
+    color: #00ccbc;
+}
+
+#insta-logo:hover {
+    background-color: rgba(0, 153, 255, 0.527);
+    border-radius: 50%;
+}
+
+
+.menu:hover {
+    border: 1px solid rgba(128, 128, 128, 0.719);
+}
+
