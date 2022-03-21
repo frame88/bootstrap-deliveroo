@@ -20,6 +20,9 @@ ul {
 .text-deliv {
     color: #00ccbc;
 }
+.logo {
+    min-width: 150px;
+}
 
 .menu {
     border: 1px solid rgba(128, 128, 128, 0.411);
@@ -108,3 +111,9 @@ ul {
     border: 1px solid rgba(128, 128, 128, 0.719);
 }
 
+/*      DISPLAY NONE media query       */
+@media screen and (max-width: 1000px) {
+  .navbar {
+    display: none;
+  }
+}
