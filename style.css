@@ -1,0 +1,13 @@
+.cici {
+    color: orange;
+}
+
+.cici:hover .fa-arrow-right-long{
+    margin-right: -10px;
+    transition: 0.7s;
+}
+
+.cici:hover span{
+    text-decoration: underline;
+    transition: 0.7s;
+}

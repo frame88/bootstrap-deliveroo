@@ -111,7 +111,7 @@ ul {
     transition: 0.7s;
 }
 
-.cici:hover {
+.cici a:hover {
     text-decoration: underline;
     transition: 0.7s;
     color: #00ccbc;
