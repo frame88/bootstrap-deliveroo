@@ -101,14 +101,20 @@ ul {
     color: #00ccbc;
 }
 
-#insta-logo:hover {
-    background-color: rgba(0, 153, 255, 0.527);
-    border-radius: 50%;
-}
-
-
 .menu:hover {
     border: 1px solid rgba(128, 128, 128, 0.719);
+}
+
+.cici:hover .fa-arrow-right-long{
+    margin-right: -10px;
+    margin-left: 10px;
+    transition: 0.7s;
+}
+
+.cici:hover {
+    text-decoration: underline;
+    transition: 0.7s;
+    color: #00ccbc;
 }
 
 /*      DISPLAY NONE media query       */
